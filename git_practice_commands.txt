@@ -1,0 +1,22 @@
+to initialize git
+	git init 
+
+to know the status 
+	git status
+
+from working directory to staging - use add (Add 1 file at a time)
+	git add code.py
+
+from staging to local repo - use commit (all files, we cannot commit 1 at a time)
+	git commit -m "commiting example"
+
+from local repo to remote repo - use push 
+	git remote add origin https://github.com/nayanappa/git-rn.git (need to tell which repo it is since its remote)
+	git push -u origin master (master or main or something else depends on where you are)
+	git push --set-upstream origin branch1 (for branches)
+
+for jumping between branches 
+	git checkout -b "branch1"
+
+to go back to main/master
+	git switch master
