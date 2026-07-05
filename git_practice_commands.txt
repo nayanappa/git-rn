@@ -15,6 +15,9 @@ from local repo to remote repo - use push
 	git push -u origin master (master or main or something else depends on where you are)
 	git push --set-upstream origin branch1 (for branches)
 
+From remote to local - use pull
+	git pull origin master (sometimes if files are added in remote directly, we need to pull to keep it in sync)
+
 for jumping between branches 
 	git checkout -b "branch1"
 
