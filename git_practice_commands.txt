@@ -23,3 +23,5 @@ for jumping between branches
 
 to go back to main/master
 	git switch master
+
+git merge origin/master (you might have to use this after you pull )
