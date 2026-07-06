@@ -1,0 +1,24 @@
+docker run hello-world (to install image from local, if not found it will download from dcokerhub)
+
+docker ps  (all running containers)
+
+docker ps -a (all running/stopped containers)
+
+docker stop container id 
+
+docker rm container id (will remove containers )
+
+dcoker images (lists images)
+
+dockers rmi image id (yes its rmi)
+
+docker run -it ubuntu (another example install using iterative mode)
+
+
+--------------------------
+
+to build
+
+docker build -t my-pyton-app .  (it needs us to prepare the dockerfile first, app etc)
+
+docker run -p 4000:80 my-pyton-app (to run the image and also 4000 to map to 80)
